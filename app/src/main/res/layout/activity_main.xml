@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/title"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/shopping"
+            android:text="@string/tropical_food"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/shopping"
+            android:layout_marginStart="10dp" />
+        <Button
+            android:id="@+id/signup"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/sign_up"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:textColor="#000000"
+            android:background="@drawable/sing"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:layout_marginEnd="10dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/pastaid"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/pasta1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="5dp" />
+        <ImageButton
+            android:id="@+id/pizzaid"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pizza"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_marginRight="5dp"
+            android:background="@drawable/dezart"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="TODO" />
+        <ImageButton
+            android:id="@+id/drinksid"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/drinks"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_marginRight="5dp"
+            android:background="@drawable/appetiz"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="5dp"
+            />
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/chicken"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="5dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

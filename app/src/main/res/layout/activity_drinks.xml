@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drinks_bg"
+    android:orientation="vertical"
+    tools:context=".drinks">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="@string/green_apple_270_bdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="@string/orange_and_apple_juice_270_bdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="@string/fuel_grill_and_juice_270_bdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="@string/jababerry_juice_270_bdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="@string/magic_mix_juice_270_bdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+   <LinearLayout
+       android:layout_marginTop="30dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <Button
+           android:text="@string/order_now"
+           android:layout_gravity="center"
+           android:background="@drawable/sing"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+
+   </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

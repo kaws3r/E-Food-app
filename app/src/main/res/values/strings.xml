@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Efood</string>
+    <string name="tropical_food">Tropical Food</string>
+    <string name="sign_up">sign up</string>
+    <string name="sign_in">sign in</string>
+    <string name="pastamenu">Chicken Arabitta</string>
+    <string name="green_apple_270_bdk">Green Apple :270 BDK</string>
+    <string name="orange_and_apple_juice_270_bdk">Orange and Apple Juice :270 BDK</string>
+    <string name="fuel_grill_and_juice_270_bdk">Fuel Grill and Juice :270 BDK</string>
+    <string name="jababerry_juice_270_bdk">JabaBerry Juice :270 BDK</string>
+    <string name="magic_mix_juice_270_bdk">Magic Mix Juice :270 BDK</string>
+    <string name="order_now">ORDER NOW</string>
+</resources>
